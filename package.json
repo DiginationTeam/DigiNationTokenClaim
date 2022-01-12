@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.0",
+    "@openzeppelin/contracts-upgradeable": "^4.4.1",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@openzeppelin/truffle-upgrades": "^1.11.0",
+    "@truffle/hdwallet-provider": "^1.4.3",
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "eth-crypto": "^2.1.0",
+    "keccak256": "^1.0.6",
+    "web3": "^1.5.2"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.12"
+  }
+}

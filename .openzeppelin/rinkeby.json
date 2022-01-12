@@ -1,0 +1,188 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x405c969550b4518fbFe5AEa65978D91E274741c5",
+    "txHash": "0xa86d7fc41a9a9d567064f80b0a2cb92e23c252992f18f233daf23e29713d3a0c"
+  },
+  "proxies": [
+    {
+      "address": "0x7E56d46827f42FCDDccCb526d5238fD0dE112706",
+      "txHash": "0xc6de4cb96a88b3c10f493529f70dfb33a83717e17bf8c7ccf20e159d710b4996",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x48c828470fA86D1264BF959d3bfD4D937eBd9c3c",
+      "txHash": "0x54e3c9faad51da0773577de87d22d07989f4953b95edd25f49801bd951b7c7cc",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "1569b1f8a6cd917b273f5b3a9803aaf7cab312d88dd1ef5f5578014ebb1f8221": {
+      "address": "0xB03525445DF431d40c668C2b4527E5C37C577592",
+      "txHash": "0x7887b4169035acff69ac48b339a05e4228beda919e6b5ad38a77dae36df38a78",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:44"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:82"
+          },
+          {
+            "contract": "DigiNationTokenClaim",
+            "label": "_msgSigner",
+            "type": "t_address",
+            "src": "../project:/contracts/DigiNationTokenClaim.sol:28"
+          },
+          {
+            "contract": "DigiNationTokenClaim",
+            "label": "_supportTokenContracts",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "../project:/contracts/DigiNationTokenClaim.sol:30"
+          },
+          {
+            "contract": "DigiNationTokenClaim",
+            "label": "_claimNonce",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "../project:/contracts/DigiNationTokenClaim.sol:31"
+          },
+          {
+            "contract": "DigiNationTokenClaim",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../project:/contracts/DigiNationTokenClaim.sol:97"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          }
+        }
+      }
+    },
+    "da544f15f5d2e9892b0cec7b6e760d76f73d9c861523f4f655af2d7feeb08cec": {
+      "address": "0x3e4691827142b72864CFF58f94398F2cE963d2f4",
+      "txHash": "0x1ec7f0959209262336422e3de2f84224d4e41d83464a68ff51a9df9cf9b462de",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:44"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:31"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:82"
+          },
+          {
+            "contract": "DigiNationTokenClaim",
+            "label": "_msgSigner",
+            "type": "t_address",
+            "src": "../project:/contracts/DigiNationTokenClaim.sol:28"
+          },
+          {
+            "contract": "DigiNationTokenClaim",
+            "label": "_claimNonce",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "../project:/contracts/DigiNationTokenClaim.sol:30"
+          },
+          {
+            "contract": "DigiNationTokenClaim",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../project:/contracts/DigiNationTokenClaim.sol:81"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    }
+  }
+}
